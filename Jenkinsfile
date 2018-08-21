@@ -16,7 +16,7 @@ pipeline {
 	}	
 	post {
 		always {
-			archiveArtifacts artifacts: 'website.tgz'
+			archiveArtifacts artifacts: 'website.tgz',
 			fingerprint: true
 		}
 	}	
