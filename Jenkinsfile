@@ -16,7 +16,7 @@ pipeline {
 	}	
 	post {
 		always {
-			archiveArtifacts artifacts: 'path/to/*.jar',
+			archiveArtifacts artifacts: 'website.tgz'
 			fingerprint: true
 		}
 	}	
